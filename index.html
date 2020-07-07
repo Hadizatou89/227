@@ -7,18 +7,21 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>227</title>
-
-
-  
+    <script>
+      $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+    
+    </script>
 </head>
 <body>
 <!--entete-->
-<div class="navbar-fixed">
-    <nav class="nav-wrapper  teal lighten-2">
+
+    <nav class=" navbar-fixed teal lighten-2">
         <div class="container " >
+            <div class="nav-wrapper">
             <a href="#" class="brand-logo">227voyages</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="right ">
+            <ul id="mobile" class="right hide-on-med-and-down ">
                 <li><a href="fa-home.html">Home</a></li>
                 <li><a href="searc.html">Search</a></li>
                 <li><a href="popular.html">Popular places</a></li>
@@ -26,8 +29,10 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
+      </div>
     </nav>
-  </div>
+ 
+
 <!--slider-->
 <div class="slider">
     <ul class="slides">
@@ -72,21 +77,21 @@
 <div class="grey lighten-2" >
     <div class="container">
       <div class="row">
-        <div class="col s4">
+        <div class="col s12">
           <div class="card-panel white center ">
             <i class="medium material-icons teal-text text-lighten-2">place</i>
             <h5>Pick Where</h5>
             <p>I am a very simple card. I am good at containing .</p>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s12">
           <div class="card-panel white center ">
             <i class="medium material-icons teal-text text-lighten-2">store</i>
             <h5>Travel Shop</h5>
             <p>I am a very simple card. I am good at containing .</p>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s12">
           <div class="card-panel white center ">
             <i class="medium material-icons teal-text text-lighten-2">flight</i>
             <h5>Fly Cheap</h5>
@@ -101,7 +106,7 @@
     <h5 class="center"><span class="teal-text text-lighten-2 ">Popular</span> Place</h5>
     <div class="row">
       
-      <div class="col s4">
+      <div class="col s12">
         <div class="card">
          
           <div class="card-image">
@@ -113,7 +118,7 @@
           </div>
       </div>
     </div>
-    <div class="col s4">
+    <div class="col s12">
       <div class="card">
         <div class="card-image">
           <img src="2.jpg" alt="fs">
@@ -124,7 +129,7 @@
         </div>
     </div>
   </div>
-  <div class="col s4">
+  <div class="col s12">
     <div class="card">
       <div class="card-image">
         <img src="2.jpg">
@@ -314,20 +319,6 @@
   <footer>
 
   </footer>
-
-
-
-
-
-
-
-
-
-
-  
-    
-
-
 
 
 
